@@ -15,3 +15,17 @@ numbers.sort()
 print(numbers[0])
 print(numbers[-1])
 ```
+
+### Problem 2:
+
+```python
+numbers = []
+for iteration in range(6):
+    numbers.append(int(input("Enter number motherfucker: "))) 
+for index in range(6):
+    print(index)
+    if (index % 2):
+        print("ODD: " + str(numbers[index]))
+    else:
+        print("EVEN: " + str(numbers[index]))
+```
