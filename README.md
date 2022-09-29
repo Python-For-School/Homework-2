@@ -1,4 +1,4 @@
-## Problem 1:
+### Problem 1:
 
 ```python
 numbers = []
@@ -28,4 +28,16 @@ for index in range(6):
         print("ODD: " + str(numbers[index]))
     else:
         print("EVEN: " + str(numbers[index]))
+```
+### Problem 3:
+```py
+numbers = []
+for index in range(6):
+    numbers.append(int(input("Please enter a number: ")))
+temp = numbers[0]
+for index in range(5):
+    numbers[index] = numbers[index + 1]
+numbers[-1] = temp
+
+print(numbers)
 ```
